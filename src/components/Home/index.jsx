@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import LogoTitle from '../../assets/images/logo.jpg';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
+import Logo from './Logo';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -28,6 +29,7 @@ const Home = () => {
 
 
   return (
+    <>
     <div className="container home-page">
       <div className="text-zone">
         <h1>
@@ -56,6 +58,8 @@ const Home = () => {
         </Link>
       </div>
     </div>
+    <Logo />
+    </>
   );
 };
 
