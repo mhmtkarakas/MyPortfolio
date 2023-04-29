@@ -2,8 +2,8 @@ import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-br
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, NavLink } from 'react-router-dom';
-import LogoS from '../../assets/images/logo-m.png';
-import LogoSubtitle from '../../assets/images/logo-sub.jpg';
+import LogoS from '../../assets/images/1.jpg';
+import LogoSubtitle from '../../assets/images/logo.jpg';
 import './index.scss';
 
 const Sidebar = () => (
@@ -11,6 +11,7 @@ const Sidebar = () => (
     <Link className="logo" to="/">
       <img src={LogoS} alt="logo" />
       <img className="sub-logo" src={LogoSubtitle} alt="Mehmet" />
+      <span>ehmet</span>
     </Link>
     <nav>
       <NavLink exact="true" activeClassName="active" to="/">

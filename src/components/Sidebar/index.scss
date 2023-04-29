@@ -8,15 +8,28 @@
   min-height: 300px;
   .logo {
     display: block;
+    position: relative;
+    right: 3px;
     padding: 8px 0;
     img {
-      display: block;
-      margin: 8px auto;
+      display:block;
+
+      margin: 8px 2px;
       width: 56px;
+      border-radius: 5px;
       height: auto;
       &.sub-logo {
-        width: 50px;
+    
+        width: 15px;
       }
+    }
+    span {
+      position: absolute;
+      top: 90px;
+      left: 20px;
+      font-size: 15px;
+      color: #ffd700;
+      list-style: none;
     }
   }
   nav {
