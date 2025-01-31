@@ -87,6 +87,7 @@ const Contact = () => {
           <br />
           Yenisehir/21100 <br />
           Diyarbakir<br />
+          05423317650
           <br />
           <span>m.karakas32@gmail.com</span>
         </div>

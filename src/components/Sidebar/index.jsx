@@ -1,5 +1,15 @@
-import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+  faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
+import {
+  faProjectDiagram,
+  faEnvelope,
+  faHome,
+  faUser,
+} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, NavLink } from 'react-router-dom';
 import LogoS from '../../assets/images/1.jpg';
@@ -24,6 +34,14 @@ const Sidebar = () => (
         to="/about"
       >
         <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+      </NavLink>
+      <NavLink
+        exact="true"
+        activeClassName="active"
+        className="projects-link"
+        to="/projects"
+      >
+        <FontAwesomeIcon icon={faProjectDiagram} color="#4d4d4e" />
       </NavLink>
       <NavLink
         exact="true"

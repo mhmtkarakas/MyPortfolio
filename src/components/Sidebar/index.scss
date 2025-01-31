@@ -74,18 +74,23 @@
       }
       &:first-child {
         &::after {
-          content: 'HOME';
+          content: 'ANASAYFA';
         }
       }
     }
     a.about-link {
       &:after {
-        content: 'ABOUT';
+        content: 'HAKKIMDA';
+      }
+    }
+    a.projects-link {
+      &:after {
+        content: 'PROJELERİM';
       }
     }
     a.contact-link {
       &:after {
-        content: 'CONTACT';
+        content: 'İLETİŞİM';
       }
     }
     a.active {
